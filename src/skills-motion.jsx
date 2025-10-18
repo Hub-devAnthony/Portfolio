@@ -1,10 +1,17 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { motion } from 'framer-motion';
 
 function SkillsMotion () {
+  useEffect(() => {
+    AOS.init({ duration: 800, easing: 'ease-out', once: true });
+  }, []);
+
   return (
-    <div className="mx-auto flex flex-col items-center justify-evenly mt-14 w-full lg:w-1/2 h-80 border-t-2 border-b-2 border-gray-300 overflow-hidden">
-        <p className='text-4xl font-extrabold text-gray-900'>What I Bring to the Table?</p>
-        <p className='text-2xl font-bold text-gray-600'>What I Know... and What I'm Learning</p>
+    <div data-aos="fade-up" data-aos-delay="800" className="mx-auto flex flex-col items-center justify-evenly mt-14 w-full lg:w-1/2 h-80 border-t-2 border-b-2 border-gray-300 overflow-hidden">
+        <p className='text-center text-4xl font-extrabold text-gray-900'>What I Bring to the Table</p>
+        <p className='text-center text-2xl font-bold text-gray-600'>Always learning, always innovating.</p>
         <motion.div
           className='flex items-center justify-center space-x-8 h-16'
           animate={{ x: ["100%", "-100%"] }}
