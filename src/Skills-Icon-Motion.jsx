@@ -20,7 +20,7 @@ function MotionPractice () {
   const loopedIcons = [...techIcons, ...techIcons];
 
   return (
-    <div data-aos="fade-up" data-aos-delay="400" className="mt-12 overflow-hidden w-[75%] sm:w-[50%] mx-auto py-8">
+    <div data-aos="fade-up" data-aos-delay="200" className="mt-12 overflow-hidden w-full sm:w-[75%] mx-auto py-8">
       <motion.div
         className="flex gap-6"
         animate={{ x: ["0%", "-50%"] }}

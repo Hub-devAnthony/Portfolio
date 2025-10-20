@@ -3,9 +3,11 @@ import { Home, User, Briefcase, Mail, FileText, Download } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Typewriter } from 'react-simple-typewriter';
-import Motion from './motion.jsx'
-import MotionPractice from './motion3.jsx';
-import SkillsMotion from './skills-motion.jsx'
+import Motion from './Projects-Motion.jsx'
+import MotionPractice from './Skills-Icon-Motion.jsx';
+import SkillsMotion from './Skills-Section.jsx'
+import ProjectsSection from './Projects-Section.jsx';
+import ContactSection from './Contact-Section.jsx';
 
 function App () {
   useEffect(() => {
@@ -25,7 +27,7 @@ function App () {
         </nav>
       </header>
 
-      <header className="lg:hidden mt-6 mx-auto w-[75vw] h-16 rounded-2xl border border-gray-300 flex items-center justify-evenly shadow-sm">
+      <header className="lg:hidden mt-16 mx-auto w-[75vw] h-16 rounded-2xl border border-gray-300 flex items-center justify-evenly shadow-sm">
         <a href="home"><Home/></a>
         <div className="h-6 border-l border-gray-300"></div>
         <a href="about"><User/></a>
@@ -53,7 +55,7 @@ function App () {
             delaySpeed={1000}
           />
         </p>
-        <p className="mt-2 ml-4 text-xl font-semibold text-gray-600">Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
+        <p className="mt-2 ml-4 text-xl font-semibold text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
         <a href="contact"><button className="mt-4 ml-6 p-2.5 bg-black text-white rounded-xl font-medium text-base">Reach Out!</button></a>
       </section>
 
@@ -61,26 +63,27 @@ function App () {
 
       <MotionPractice/>
 
-      <section data-aos="fade-up" data-aos-delay="600">
+      <section data-aos="fade-up" data-aos-delay="400">
         <p className="mt-14 ml-2 text-2xl font-bold text-gray-900">About Me</p>
-        <p className='mt-4 ml-4 text-lg font-medium text-gray-600'>Hi, I'm Anthony, a 17-year-old Chemistry student with an enthusiasm for Software Engineering. I love solving problems-whether it's a tricky chemical equation or a stubborn piece of code. Who knew balancing equations could be as satisfying as debugging a program?</p>
-        <p className='mt-4 ml-4 text-lg font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes...sometimes my experiments explode-but that's just part of the fun!</p>
+        <p className='mt-4 ml-2 text-lg font-medium text-gray-600'>Hi, I'm Anthony, a 17-year-old Chemistry student with an enthusiasm for Software Engineering. I love solving problems-whether it's a tricky chemical equation or a stubborn piece of code. Who knew balancing equations could be as satisfying as debugging a program?</p>
+        <p className='mt-4 ml-2 text-lg font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes...sometimes my experiments explode-but that's just part of the fun!</p>
         <div className="mt-16 w-full border-t-2 border-gray-300"></div>
       </section>
       
-      <section data-aos="fade-up" data-aos-delay="800">
+      <section data-aos="fade-up" data-aos-delay="600">
         <p className="mt-12 ml-2 text-2xl font-bold text-gray-900">Roles & Experience</p>
         <p className='mt-6 ml-2 text-sm font-medium text-gray-800'>Sept 2025-Present</p>
-        <p className='mt-2 ml-2 text-xl font-semibold text-black'>- Univad Campus Ambassador | University of 
-        Ilorin</p>
+        <p className='mt-2 ml-2 text-xl font-semibold text-black'>Univad Campus Ambassador | University of Ilorin</p>
         <p className='mt-6 ml-2 text-sm font-medium text-gray-800'>Sept 2025-Present</p>
-        <p className='mt-2 ml-2 text-xl font-semibold text-black'>- Cowrywise Campus Ambassador | University of Ilorin</p>
+        <p className='mt-2 ml-2 text-xl font-semibold text-black'>Cowrywise Campus Ambassador | University of Ilorin</p>
         <p className='mt-6 ml-2 text-sm font-medium text-gray-800'>Sept 2025-Present</p>
-        <p className='mt-2 ml-2 text-xl font-semibold text-black'>- Software Engineering Intern | DevSphere</p>
-        <p className='mt-8 ml-2 text-sm font-medium text-gray-900'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline'>resume</a> for more details.</p>
+        <p className='mt-2 ml-2 text-xl font-semibold text-black'>Software Engineering Intern | DevSphere</p>
+        <p className='ml-2 mt-8 ml-2 text-sm font-medium text-gray-900'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline'>resume</a> for more details.</p>
       </section>
       
       <SkillsMotion />
+      <ProjectsSection />
+      <ContactSection />
     </>
   );
 }
