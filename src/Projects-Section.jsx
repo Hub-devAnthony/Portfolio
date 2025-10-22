@@ -1,7 +1,17 @@
 function ProjectsSection () {
+
   return (
-    <>
+    <div id="project">
       <p className="mt-6 ml-4 text-2xl font-extrabold text-black">Here are my Innovations & Experiments.</p>
+
+      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[500px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+        <div className="mx-auto rounded-2xl border-gray-300 border w-5/6 h-2/5 overflow-hidden">
+          <img className="w-full h-full object-cover" src="second.png" />
+        </div>
+        <p className="ml-6 text-xl font-bold text-black">A Directory of Nigerian Universities</p>
+        <p className="ml-6 text-base font-medium text-gray-600">Building a Nigerian Universities Respository with an interactive interface for users to explore and search university data.</p>
+        <button className="ml-6 h-[48px] w-48 bg-gray-400 rounded-xl font-medium text-base">View Project</button>
+      </div>
 
       <div className="flex flex-col justify-evenly mt-6 mx-auto h-[500px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="rounded-xl mx-auto border-gray-300 border w-5/6 h-2/5 overflow-hidden">
@@ -39,15 +49,14 @@ function ProjectsSection () {
         <button className="ml-6 h-[48px] w-48 bg-gray-400 rounded-xl font-medium text-base">View Project</button>
       </div>
 
-      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[500px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
-        <div className="mx-auto rounded-2xl border-gray-300 border w-5/6 h-2/5 overflow-hidden">
-          <img className="w-full h-full object-cover" src="fifth.png" />
-        </div>
-        <p className="ml-6 text-xl font-bold text-black">A YouTube Clone</p>
-        <p className="ml-6 text-base font-medium text-gray-600">Also working on a YouTube-styled video streaming platform using HTML, CSS and JavaScript, with ongoing work to make it fully interactive.</p>
-        <button className="ml-6 h-[48px] w-48 bg-gray-400 rounded-xl font-medium text-base">View Project</button>
+      <div className="mx-auto mt-4 flex flex-col items-center justify-evenly h-56 w-48">
+        <button className="px-5 py-3 bg-black text-white rounded-lg shadow-sm font-medium text-base">View All</button>
+
+        <button className="px-3 py-3.5 bg-black text-white rounded-lg shadow-sm font-medium text-base">Read My Articles</button>
+
+        <div className="w-[85vw] border-b border-gray-300"></div>
       </div>
-    </>
+    </div>
   );
 }
 
