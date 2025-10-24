@@ -41,7 +41,7 @@ function App () {
       </header>
 
       <div id="home" data-aos="fade-up" className="mt-32 ml-6">
-        <img src="profile-image.png" className="w-36 h-36 lg:w-40 lg:h-40 rounded-full shadow-lg object-cover"/>
+        <img src="profile.webp" className="w-36 h-36 lg:w-40 lg:h-40 rounded-full shadow-lg object-cover"/>
       </div>
 
       <section data-aos="fade-up" data-aos-delay="200">
@@ -56,8 +56,8 @@ function App () {
             delaySpeed={1000}
           />
         </p>
-        <p className="mt-2 ml-4 text-lg font-medium text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
-        <a href="contact"><button className="mt-4 ml-6 p-2.5 bg-black text-white rounded-xl font-medium text-base">Reach Out!</button></a>
+        <p className="mt-2 ml-4 mr-5 text-lg font-medium text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
+        <Link to="contact"><button className="mt-4 ml-6 p-2.5 bg-black text-white rounded-xl font-medium text-base">Reach Out!</button></Link>
       </section>
 
       <Motion />
@@ -65,9 +65,9 @@ function App () {
       <MotionPractice/>
 
       <section id="about" data-aos="fade-up" data-aos-delay="400">
-        <p className="mt-14 ml-2 text-2xl font-extrabold text-black">About Me</p>
-        <p className='mt-4 ml-2 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems-whether it's a tricky chemical equation or a stubborn piece of code. Who knew balancing equations could be as satisfying as debugging a program?</p>
-        <p className='mt-4 ml-2 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes...sometimes my experiments explode-but that's just part of the fun!</p>
+        <p className="mt-14 ml-4 text-2xl font-extrabold text-black">Just Me.</p>
+        <p className='mt-3 ml-4 mr-5 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems-whether it's a tricky chemical equation or a stubborn piece of code. Who knew balancing equations could be as satisfying as debugging a program?</p>
+        <p className='mt-4 ml-4 mr-5 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes...sometimes my experiments explode-but that's just part of the fun!</p>
         <div className="mt-16 w-full border-t border-gray-300"></div>
       </section>
       

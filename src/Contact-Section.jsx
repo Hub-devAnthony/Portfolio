@@ -1,8 +1,14 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Twitter, Github, Mail, Linkedin } from 'lucide-react'
 import { FaLinkedin } from 'react-icons/fa';
+import { FaMedium } from 'react-icons/fa'
 
 function ContactSection () {
+  useEffect(() => {
+    AOS.init({ duration: 800, easing: 'ease-out', once: true });
+  }, []);
 
   const [ message, setMessage ] = useState('')
   const phoneNumber = '2348136503239'
@@ -13,13 +19,13 @@ function ContactSection () {
   };
 
   return (
-    <div id="contact">
-      <p className="mt-12 ml-4 text-2xl font-extrabold text-black">Let's Connect!</p>
+    <div id="contact" data-aos="fade-up" data-aos-delay="600">
+      <p className="mt-10 ml-4 text-2xl font-extrabold text-black">Hit Me Up!</p>
       <p className="mt-2 ml-4 text-base font-medium text-gray-600">Every great story starts with a simple hello, if you've got a project, an idea, or just want to connect, i would love to hear from you. I believe collaborations sparks creativity and amazing things happen when passionate people share their visions. So don't hesitate to reach out; let's start a conversation that could turn inspiration into something truly memorable.</p>
         <textarea 
           value={message} 
           onChange={(e) => setMessage(e.target.value)} 
-          className="mx-auto block mt-6 w-[85vw] h-56 border border-gray-300 rounded-2xl shadow-lg font-medium text-gray-400 text-base focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition resize-none pt-4 pl-4" type="text" placeholder="Let's build something together!"/>
+          className="mx-auto block mt-6 w-[85vw] h-56 bg-gray-200 border border-gray-300 rounded-2xl shadow-lg font-medium text-gray-400 text-base focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition resize-none pt-4 pl-4" type="text" placeholder="Let's build something together!"/>
         <button onClick={sendMessage} className="mx-auto block mt-4 w-[85vw] h-16 rounded-lg bg-black text-white text-sm font-medium shadow-lg">Send Message</button>
         <div className="mx-auto mt-[200px] w-[85vw] border-b border-gray-300"></div>
         <footer className="mt-12 text-center font-medium text-base text-gray-600">Copyright  &copy; 2025 Anthony.</footer>
@@ -29,6 +35,7 @@ function ContactSection () {
           <a className="text-xl hover:text-black" href="https://www.linkedin.com/in/ayomikun-i-399641352/"><FaLinkedin /></a>
           <a className='hover:text-black' href='https://github.com/Hub-devAnthony'><Github /></a>
           <a className='hover:text-black' href="https://x.com/_anthony_yk"><Twitter /></a>
+          <a className='text-xl hover:text-black' href="https://medium.com/@isijolaayomikun04"><FaMedium /></a>
         </div>
     </div>
   );
