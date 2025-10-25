@@ -20,8 +20,8 @@ function ContactSection () {
 
   return (
     <div id="contact" data-aos="fade-up" data-aos-delay="600">
-      <p className="mt-10 ml-4 text-2xl font-extrabold text-black">Hit Me Up!</p>
-      <p className="mt-2 ml-4 pr-5 text-base font-medium text-gray-600">Every great story starts with a simple hello, if you've got a project, an idea, or just want to connect, i would love to hear from you. I believe collaborations sparks creativity and amazing things happen when passionate people share their visions. So don't hesitate to reach out; let's start a conversation that could turn inspiration into something truly memorable.</p>
+      <p className="mt-[120px] ml-4 text-2xl font-extrabold text-black">Hit Me Up!</p>
+      <p className="mt-2 ml-4 pr-5 text-base font-medium text-gray-600">Every great story starts with a simple hello, if you've got a project, an idea, or just want to connect, I would love to hear from you. I believe collaborations sparks creativity and amazing things happen when passionate people share their visions. So don't hesitate to reach out. let's start a conversation that could turn inspiration into something truly memorable.</p>
         <textarea 
           value={message} 
           onChange={(e) => setMessage(e.target.value)} 

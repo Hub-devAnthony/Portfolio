@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { Home, User, Briefcase, Mail, FileText, Download } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Home, User, Briefcase, Mail, FileText, Download, Sun, Moon } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Typewriter } from 'react-simple-typewriter';
@@ -14,6 +14,23 @@ function App () {
   useEffect(() => {
       AOS.init({ duration: 800, easing: 'ease-out', once: true });
     }, []);
+
+    const [ isDark, setIsDark ] = useState(false)
+
+    useEffect(() => {
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark')
+        setIsDark(true)
+      }
+    }, []);
+
+    const toggleTheme = () => {
+      const html = document.documentElement;
+      html.classList.toggle('dark')
+      const darkMode = html.classList.contains('dark')
+      setIsDark(darkMode)
+      localStorage.setItem('theme'), darkMode ? 'dark' : 'light'
+    }
 
   return (
     <>
@@ -37,7 +54,11 @@ function App () {
         <div className="h-6 border-l border-gray-300"></div>
         <Link to="contact" smooth={true} duration={500}><Mail/></Link>
         <div className="h-6 border-l border-gray-300"></div>
-        <a href="resume.pdf" download="Anthony's resume.pdf"><FileText/></a>
+        <button 
+          onClick={toggleTheme}
+          className="p-2 rounded-lg border hover:bg-gray-200 dark:hover:bg-gray-800">
+          {isDark ? <Sun size={22} /> : <Moon size={22} /> }
+        </button>
       </header>
 
       <div id="home" data-aos="fade-up" className="mt-32 ml-6">
@@ -45,7 +66,7 @@ function App () {
       </div>
 
       <section data-aos="fade-up" data-aos-delay="200">
-        <p className="mt-8 ml-4 text-2xl font-extrabold text-black">
+        <p className="mt-8 ml-2 text-2xl font-extrabold text-black">
           <Typewriter
             words={[ 'Hey, I"m Anthony.', 'SWE Intern @DevSphere.' ]}
             loop={true}
@@ -56,8 +77,8 @@ function App () {
             delaySpeed={1000}
           />
         </p>
-        <p className="mt-2 ml-4 pr-5 text-lg font-medium text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
-        <Link to="contact"><button className="mt-4 ml-6 p-2.5 bg-black text-white rounded-xl font-medium text-base">Reach Out!</button></Link>
+        <p className="mt-2 ml-2 pr-5 text-lg font-medium text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
+        <Link to="contact"><button className="mt-4 ml-5 p-2.5 bg-black text-white rounded-lg font-medium text-base">Reach Out!</button></Link>
       </section>
 
       <Motion />
@@ -65,9 +86,9 @@ function App () {
       <MotionPractice/>
 
       <section id="about" data-aos="fade-up" data-aos-delay="400">
-        <p className="mt-14 ml-4 text-2xl font-extrabold text-black">Just Me.</p>
-        <p className='mt-3 ml-4 pr-5 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems-whether it's a tricky chemical equation or a stubborn piece of code. Who knew balancing equations could be as satisfying as debugging a program?</p>
-        <p className='mt-4 ml-4 pr-5 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes...sometimes my experiments explode-but that's just part of the fun!</p>
+        <p className="mt-14 ml-2 text-2xl font-extrabold text-black">So, About Me.</p>
+        <p className='mt-3 ml-2 pr-5 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems - whether it's a tricky chemical equation or a stubborn piece of code. Who knew debugging could be as satisfying as a balancing equations?</p>
+        <p className='mt-4 ml-2 pr-5 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes... sometimes my experiments explode - but that's just part of the fun!</p>
         <div className="mt-16 w-full border-t border-gray-300"></div>
       </section>
       
