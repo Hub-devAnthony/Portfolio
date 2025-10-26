@@ -66,7 +66,7 @@ function App () {
       </div>
 
       <section data-aos="fade-up" data-aos-delay="200">
-        <p className="mt-8 ml-2 text-2xl font-extrabold text-black">
+        <p className="mt-8 ml-3 text-2xl font-extrabold text-black">
           <Typewriter
             words={[ 'Hey, I"m Anthony.', 'SWE Intern @DevSphere.' ]}
             loop={true}
@@ -77,7 +77,7 @@ function App () {
             delaySpeed={1000}
           />
         </p>
-        <p className="mt-2 ml-2 pr-5 text-lg font-medium text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
+        <p className="mt-2 ml-3 pr-5 text-lg font-medium text-gray-600">A Chemistry student with an enthusiasm for transforming ideas into code. I love bridging science and technology to build creative solutions.</p>
         <Link to="contact"><button className="mt-4 ml-5 p-2.5 bg-black text-white rounded-lg font-medium text-base">Reach Out!</button></Link>
       </section>
 
@@ -86,21 +86,21 @@ function App () {
       <MotionPractice/>
 
       <section id="about" data-aos="fade-up" data-aos-delay="400">
-        <p className="mt-14 ml-2 text-2xl font-extrabold text-black">So, About Me.</p>
-        <p className='mt-3 ml-2 pr-5 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems - whether it's a tricky chemical equation or a stubborn piece of code. Who knew debugging could be as satisfying as a balancing equations?</p>
-        <p className='mt-4 ml-2 pr-5 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes... sometimes my experiments explode - but that's just part of the fun!</p>
+        <p className="mt-14 ml-3 text-2xl font-extrabold text-black">So, About Me.</p>
+        <p className='mt-3 ml-3 pr-5 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems - whether it's a tricky chemical equation or a stubborn piece of code. Who knew debugging could be as satisfying as a balancing equations?</p>
+        <p className='mt-4 ml-3 pr-5 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes... sometimes my experiments explode - but that's just part of the fun!</p>
         <div className="mt-16 w-full border-t border-gray-300"></div>
       </section>
       
       <section data-aos="fade-up" data-aos-delay="600">
-        <p className="mt-12 ml-2 text-2xl font-extrabold text-black">Roles & Experience</p>
-        <p className='mt-6 ml-2 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
-        <p className='mt-4 ml-2 text-xl font-bold text-black'>Univad Campus Ambassador | University of Ilorin</p>
-        <p className='mt-6 ml-2 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
-        <p className='mt-4 ml-2 text-xl font-bold text-black'>Cowrywise Campus Ambassador | University of Ilorin</p>
-        <p className='mt-6 ml-2 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
-        <p className='mt-4 ml-2 text-xl font-bold text-black'>Software Engineering Intern | DevSphere</p>
-        <p className='ml-2 mt-10 text-base font-medium text-gray-600'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline text-blue-600'>resume</a> for more details.</p>
+        <p className="mt-12 ml-3 text-2xl font-extrabold text-black">Roles & Experience</p>
+        <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
+        <p className='mt-4 ml-3 text-xl font-bold text-black'>Univad Campus Ambassador | University of Ilorin</p>
+        <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
+        <p className='mt-4 ml-3 text-xl font-bold text-black'>Cowrywise Campus Ambassador | University of Ilorin</p>
+        <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
+        <p className='mt-4 ml-3 text-xl font-bold text-black'>Software Engineering Intern | DevSphere</p>
+        <p className='ml-3 mt-10 text-base font-medium text-gray-600'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline text-blue-600'>resume</a> for more details.</p>
       </section>
       
       <SkillsMotion />

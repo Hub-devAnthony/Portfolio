@@ -11,7 +11,7 @@ function SkillsMotion () {
   return (
     <div data-aos="fade-up" data-aos-delay="600" className="mx-auto flex flex-col items-center justify-evenly mt-14 w-full lg:w-1/2 h-96 border-t border-b border-gray-300 overflow-hidden">
         <p className='text-center text-2xl font-extrabold text-black'>What I bring to the table?</p>
-        <p className='text-center text-xl font-bold text-gray-600'>Always learning, always innovating.</p>
+        <p className='text-center text-xl font-bold text-gray-600'>Always learning, Always Innovating.</p>
         <motion.div
           className='flex items-center justify-center space-x-8 h-16'
           animate={{ x: ["100%", "-100%"] }}
