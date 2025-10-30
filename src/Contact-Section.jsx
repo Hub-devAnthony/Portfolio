@@ -35,7 +35,7 @@ function ContactSection () {
           <a className="text-xl hover:text-black" href="https://www.linkedin.com/in/ayomikun-i-399641352/"><FaLinkedin /></a>
           <a className='hover:text-black' href='https://github.com/Hub-devAnthony'><Github /></a>
           <a className='hover:text-black' href="https://x.com/_anthony_yk"><Twitter /></a>
-          <a className='text-xl hover:text-black' href="https://medium.com/@isijolaayomikun04"><FaMedium /></a>
+          <a className='text-xl hover:text-black' href="https://medium.com/@anthony.yk"><FaMedium /></a>
         </div>
     </div>
   );

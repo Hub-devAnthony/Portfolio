@@ -94,10 +94,10 @@ function App () {
       
       <section data-aos="fade-up" data-aos-delay="600">
         <p className="mt-12 ml-3 text-2xl font-extrabold text-black">Roles & Experience</p>
+        <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Oct 2025-Present</p>
+        <p className='mt-4 ml-3 text-xl font-bold text-black'>Cowrywise Campus Ambassador | University of Ilorin</p>
         <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
         <p className='mt-4 ml-3 text-xl font-bold text-black'>Univad Campus Ambassador | University of Ilorin</p>
-        <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
-        <p className='mt-4 ml-3 text-xl font-bold text-black'>Cowrywise Campus Ambassador | University of Ilorin</p>
         <p className='mt-6 ml-3 text-sm font-medium text-gray-600'>Sept 2025-Present</p>
         <p className='mt-4 ml-3 text-xl font-bold text-black'>Software Engineering Intern | DevSphere</p>
         <p className='ml-3 mt-10 text-base font-medium text-gray-600'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline text-blue-600'>resume</a> for more details.</p>
