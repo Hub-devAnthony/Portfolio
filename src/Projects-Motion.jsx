@@ -11,8 +11,8 @@ function Motion () {
   return (
     <section data-aos="fade-up" data-aos-delay="200" className="flex flex-col items-center justify-evenly mt-16 w-full h-[1600px] lg:h-[1300px] border-t border-b border-gray-300">
       <p className="text-center text-2xl font-extrabold text-black">Just a Few Things I'm Good At.</p>
-      <main className="flex flex-col h-[540px] lg:h-[520px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
-        <div className="ml-4 mt-16 flex items-center gap-2">
+      <main className="flex flex-col h-[560px] lg:h-[520px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
+        <div className="ml-4 mt-12 flex items-center gap-2">
           <div className="flex items-center justify-center h-12 w-12 bg-black rounded-lg"><Code className="text-white" /></div>
           <p className="text-lg font-bold text-black">Front-End Development</p>
         </div>
@@ -21,8 +21,8 @@ function Motion () {
           <p className="mt-4 ml-4 mr-4 text-base font-medium text-gray-600">I'm continuously learning and expanding my skill set on my path towards Software Engineering to build solutions that are both intuitive and effective.</p>
       </main>
 
-      <main className="flex flex-col h-[540px] lg:h-[520px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
-        <div className="ml-4 mt-16 flex items-center gap-2">
+      <main className="flex flex-col h-[560px] lg:h-[520px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
+        <div className="ml-4 mt-12 flex items-center gap-2">
           <div className="flex items-center justify-center h-12 w-12 bg-black rounded-lg"><Megaphone className="text-white" /></div>
           <p className="text-lg font-bold text-black">Brand Ambassadorship Opportunities</p>
         </div>
