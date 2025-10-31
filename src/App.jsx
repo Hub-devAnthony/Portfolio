@@ -81,8 +81,6 @@ function App () {
         <Link to="contact"><button className="mt-4 ml-5 p-2.5 bg-black text-white rounded-lg font-medium text-base">Reach Out!</button></Link>
       </section>
 
-      <Motion />
-
       <MotionPractice/>
 
       <section id="about" data-aos="fade-up" data-aos-delay="400">
@@ -103,6 +101,7 @@ function App () {
         <p className='ml-3 mt-10 text-base font-medium text-gray-600'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline text-blue-600'>resume</a> for more details.</p>
       </section>
       
+      <Motion />
       <SkillsMotion />
       <ProjectsSection />
       <ContactSection />

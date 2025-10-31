@@ -11,7 +11,7 @@ function ProjectsSection () {
     <div id="project" data-aos="fade-up" data-aos-delay="600">
        <p className="mt-6 text-center text-2xl font-extrabold text-black">My Articles.</p>
 
-       <div className="flex flex-col justify-evenly mt-10 mx-auto h-[600px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+       <div className="flex flex-col justify-evenly mt-10 mx-auto h-[550px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-2xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="article.jpg" />
         </div>
@@ -117,7 +117,7 @@ function ProjectsSection () {
       </div>
 
       <div className="mx-auto mt-20 flex flex-col items-center justify-evenly">
-        <button className="w-[150px] h-[58px] bg-black text-white rounded-lg shadow-sm font-medium text-base">View More</button>
+        <a href="https://github.com/Hub-devAnthony"><button className="w-[150px] h-[58px] bg-black text-white rounded-lg shadow-sm font-medium text-base">View More</button></a>
       </div>
     </div>
   );
