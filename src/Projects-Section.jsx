@@ -11,13 +11,13 @@ function ProjectsSection () {
     <div id="project" data-aos="fade-up" data-aos-delay="600">
        <p className="mt-6 text-center text-2xl font-extrabold text-black">My Articles.</p>
 
-       <div className="flex flex-col justify-evenly mt-10 mx-auto h-[550px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+       <div className="flex flex-col justify-evenly mt-10 mx-auto h-[550px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-2xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="article.jpg" />
         </div>
-        <p className="ml-4 text-xl font-bold text-black">SOLID (Open/Closed Principle)</p>
-        <p className="ml-4 text-base font-medium text-gray-600">Exploring the SOLID principles - beaking down the Open/Closed principle using acid-base neutralization reaction as a relatable analogy.</p>
-        <a href="https://medium.com/@anthony.yk"><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Read Article</button></a>
+        <p className="ml-6 text-xl font-bold text-black">SOLID (Open/Closed Principle)</p>
+        <p className="ml-6 text-base font-medium text-gray-600">Exploring the SOLID principles - beaking down the Open/Closed principle using acid-base neutralization reaction as a relatable analogy.</p>
+        <a href="https://medium.com/@anthony.yk"><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Read Article</button></a>
       </div>
 
       <a href="https://medium.com/@anthony.yk">
@@ -26,94 +26,94 @@ function ProjectsSection () {
         </div>
       </a>
 
-      <div className="mx-auto mt-20 w-[85vw] border-t border-gray-300"></div>
+      <div className="mx-auto mt-20 w-[90vw] border-t border-gray-300"></div>
 
-      <p className="mt-6 ml-4 text-2xl text-center font-extrabold text-black">Here are my Dev Experiments.</p>
+      <p className="mt-6 ml-6 text-2xl text-center font-extrabold text-black">Here are my Dev Experiments.</p>
 
-      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-2xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="package.png" />
         </div>
-        <p className="ml-4 mr-6 text-xl font-bold text-black">Universities in Nigeria - NPM Package</p>
-        <p className="ml-4 text-base font-medium text-gray-600">An NPM package that provides a complete and up-to-date list of all federal, state, and private universities in Nigeria for easy integration into web and data applications.</p>
+        <p className="ml-6 mr-6 text-xl font-bold text-black">Universities in Nigeria - NPM Package</p>
+        <p className="ml-6 text-base font-medium text-gray-600">An NPM package that provides a complete and up-to-date list of all federal, state, and private universities in Nigeria for easy integration into web and data applications.</p>
         <div>
-          <button className="ml-4 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">JavaScript</button>
+          <button className="ml-6 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">JavaScript</button>
           <button className="ml-2 h-10 w-32 text-white bg-gray-600 rounded-lg font-bold text-sm">Node.js(basics)</button>
         </div>
-        <a href="https://www.npmjs.com/package/nigerian-universities-data"><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">View Project on NPM</button></a>
-        <a href="https://github.com/Hub-devAnthony/nigerian-universities-data"><button className="ml-4 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
+        <a href="https://www.npmjs.com/package/nigerian-universities-data"><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">View Project on NPM</button></a>
+        <a href="https://github.com/Hub-devAnthony/nigerian-universities-data"><button className="ml-6 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
       </div>
 
-      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-2xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="inerface.png" />
         </div>
-        <p className="ml-4 mr-6 text-xl font-bold text-black">Nigerian Universities - Demo Interface</p>
-        <p className="ml-4 text-base font-medium text-gray-600">A quick sneak peak into how the Nigerian Universities package works - clean UI, simple data display and smooth experience.</p>
+        <p className="ml-6 mr-6 text-xl font-bold text-black">Nigerian Universities - Demo Interface</p>
+        <p className="ml-6 text-base font-medium text-gray-600">A quick sneak peak into how the Nigerian Universities package works - clean UI, simple data display and smooth experience.</p>
         <div>
-          <button className="ml-4 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">TailwindCSS</button>
+          <button className="ml-6 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">TailwindCSS</button>
           <button className="ml-2 h-10 w-20 text-white bg-gray-600 rounded-lg font-bold text-sm">React.js</button>
         </div>
-        <a href="https://directory-of-nigerian-universities.vercel.app/"><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
-        <a href="https://github.com/Hub-devAnthony/Directory-of-Nigerian-Universities"><button className="ml-4 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
+        <a href="https://directory-of-nigerian-universities.vercel.app/"><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
+        <a href="https://github.com/Hub-devAnthony/Directory-of-Nigerian-Universities"><button className="ml-6 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
       </div>
 
-      <div className="flex flex-col justify-evenly mt-6 mx-auto h-[650px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+      <div className="flex flex-col justify-evenly mt-6 mx-auto h-[650px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="rounded-xl mx-auto border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="third.png" />
         </div>
-        <p className="ml-4 text-xl font-bold text-black">GreenLab</p>
-        <p className="ml-4 text-base font-medium text-gray-600">Building a mobile web app that allows users to identify households chemicals, understand safe usage and promotes eco-friendly alternatives.</p>
+        <p className="ml-6 text-xl font-bold text-black">GreenLab</p>
+        <p className="ml-6 text-base font-medium text-gray-600">Building a mobile web app that allows users to identify households chemicals, understand safe usage and promotes eco-friendly alternatives.</p>
         <div>
-          <button className="ml-4 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">TailwindCSS</button>
+          <button className="ml-6 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">TailwindCSS</button>
           <button className="ml-2 h-10 w-20 text-white bg-gray-600 rounded-lg font-bold text-sn">React.js</button>
         </div>
-        <a href="https://greenlab-eta.vercel.app/"><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
-        <a href="https://github.com/Hub-devAnthony/safety-checker"><button className="ml-4 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
+        <a href="https://greenlab-eta.vercel.app/"><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
+        <a href="https://github.com/Hub-devAnthony/safety-checker"><button className="ml-6 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
       </div>
 
-      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="fourth.png" />
         </div>
-        <p className="ml-4 text-xl font-bold text-black">ChemQuest</p>
-        <p className="ml-4 text-base font-medium text-gray-600">An interactive quiz game that helps users learn about different chemicals, their use, and their effects on the environment.</p>
+        <p className="ml-6 text-xl font-bold text-black">ChemQuest</p>
+        <p className="ml-6 text-base font-medium text-gray-600">An interactive quiz game that helps users learn about different chemicals, their use, and their effects on the environment.</p>
         <div>
-          <button className="ml-4 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">TailwindCSS</button>
+          <button className="ml-6 h-10 w-28 text-white bg-gray-600 rounded-lg font-bold text-sm">TailwindCSS</button>
           <button className="ml-2 h-10 w-24 text-white bg-gray-600 rounded-lg font-bold text-sm">JavaScript</button>
         </div>
-        <a href="https://hub-devanthony.github.io/ChemQuest/"><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
-        <a href="https://github.com/Hub-devAnthony/ChemQuest"><button className="ml-4 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
+        <a href="https://hub-devanthony.github.io/ChemQuest/"><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
+        <a href="https://github.com/Hub-devAnthony/ChemQuest"><button className="ml-6 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
       </div>
 
-      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="first.png" />
         </div>
-        <p className="ml-4 text-xl font-bold text-black">An E-commerce Website</p>
-        <p className="ml-4 text-base font-medium text-gray-600">Working on a responsive e-commerce website with React.js and Tailwind CSS, with ongoing work to make it fully interactive.</p>
+        <p className="ml-6 text-xl font-bold text-black">An E-commerce Website</p>
+        <p className="ml-6 text-base font-medium text-gray-600">Working on a responsive e-commerce website with React.js and Tailwind CSS, with ongoing work to make it fully interactive.</p>
         <div>
-          <button className="ml-4 h-10 w-16 text-white bg-gray-600 rounded-lg font-bold text-sm">CSS</button>
+          <button className="ml-6 h-10 w-16 text-white bg-gray-600 rounded-lg font-bold text-sm">CSS</button>
           <button className="ml-2 h-10 w-24 text-white bg-gray-600 rounded-lg font-bold text-sm">JavaScript</button>
           <button className="ml-2 h-10 w-20 text-white bg-gray-600 rounded-lg font-bold text-sm">React.js</button>
         </div>
-        <a href=""><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
-        <a href=""><button className="ml-4 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
+        <a href=""><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
+        <a href=""><button className="ml-6 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
       </div>
 
-      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[85vw] border-gray-300 border rounded-2xl shadow-lg">
+      <div className="flex flex-col justify-evenly mt-10 mx-auto h-[650px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="mx-auto rounded-2xl border-gray-300 border w-11/12 h-1/4 overflow-hidden">
           <img className="w-full h-full object-cover" src="second.png" />
         </div>
-        <p className="ml-4 text-xl font-bold text-black">A ChatBot</p>
-        <p className="ml-4 text-base font-medium text-gray-600">Built a simple chatbot with React.js that answers user questions in real time, working on adding more data to it.</p>
+        <p className="ml-6 text-xl font-bold text-black">A ChatBot</p>
+        <p className="ml-6 text-base font-medium text-gray-600">Built a simple chatbot with React.js that answers user questions in real time, working on adding more data to it.</p>
         <div>
-          <button className="ml-4 h-10 w-16 text-white bg-gray-600 rounded-lg font-bold text-sm">CSS</button>
+          <button className="ml-6 h-10 w-16 text-white bg-gray-600 rounded-lg font-bold text-sm">CSS</button>
           <button className="ml-2 h-10 w-24 text-white bg-gray-600 rounded-lg font-bold text-sm">JavaScript</button>
           <button className="ml-2 h-10 w-20 text-white bg-gray-600 rounded-lg font-bold text-sm">React.js</button>
         </div>
-        <a href="https://anthony-chatbot.vercel.app/"><button className="ml-4 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
-        <a href="https://github.com/Hub-devAnthony/Chatbot"><button className="ml-4 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
+        <a href="https://anthony-chatbot.vercel.app/"><button className="ml-6 h-[50px] w-48 bg-gray-400 rounded-lg font-medium text-base">Live Demo</button></a>
+        <a href="https://github.com/Hub-devAnthony/Chatbot"><button className="ml-6 h-[50px] w-56 bg-gray-400 rounded-lg font-medium text-base">View Project on Github</button></a>
       </div>
 
       <div className="mx-auto mt-20 flex flex-col items-center justify-evenly">

@@ -23,7 +23,7 @@ function Motion () {
 
       <main className="flex flex-col h-[560px] lg:h-[520px] w-[90vw] border-gray-300 border rounded-2xl shadow-lg">
         <div className="ml-4 mt-12 flex items-center gap-2">
-          <div className="flex items-center justify-center h-12 w-12 bg-black rounded-lg"><Megaphone className="text-white" /></div>
+          <div className="flex flex-shrink-0 items-center justify-center h-12 w-12 bg-black rounded-lg"><Megaphone className="text-white" /></div>
           <p className="text-lg font-bold text-black">Brand Ambassadorship Opportunities</p>
         </div>
         <p className="mt-6 ml-4 mr-4 text-base font-medium text-gray-600">Beyond coding, I've been involved in a number of campus brand ambassadorship opportunities, including <a href="https://www.univad.org/" className="text-blue-600 underline">Univad</a> and <a href="https://cowrywise.com/" className="text-blue-600 underline">Cowrywise.</a></p>
