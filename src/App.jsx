@@ -85,8 +85,9 @@ function App () {
 
       <section id="about" data-aos="fade-up" data-aos-delay="400">
         <p className="mt-14 ml-3 text-2xl font-extrabold text-black">So, About Me.</p>
-        <p className='mt-3 ml-3 pr-5 text-base font-medium text-gray-600'>Hi, I'm Anthony, a Chemistry student with an enthusiasm for Software Engineering. I love solving problems - whether it's a tricky chemical equation or a stubborn piece of code. Who knew debugging could be as satisfying as a balancing equations?</p>
-        <p className='mt-4 ml-3 pr-5 text-base font-medium text-gray-600'>I'm fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes... sometimes my experiments explode - but that's just part of the fun!</p>
+        <p className='mt-3 ml-3 pr-5 text-base font-medium text-gray-600'>As you might have known, I'm Anthony and I'm currently exploring the bridge between science and technology and turning my curiosity for chemistry into a drive for building impactful software.</p>
+        <p className="mt-4 ml-3 pr-5 text-base font-medium text-gray-600">I love solving problems - whether it's a tricky chemical equation or a stubborn piece of code. Who knew debugging could be as satisfying as a balancing equations?</p>
+        <p className='mt-4 ml-3 pr-5 text-base font-medium text-gray-600'>I'm also fascinated by the blend of science and technology, always curious, experimenting, and learning. I enjoy turning challenges into creative solutions, and yes...sometimes my experiments explode - but that's just part of the fun!</p>
         <div className="mt-16 w-full border-t border-gray-300"></div>
       </section>
       
@@ -100,7 +101,7 @@ function App () {
         <p className='mt-4 ml-3 text-xl font-bold text-black'>Software Engineering Intern | DevSphere</p>
         <p className='ml-3 mt-10 text-base font-medium text-gray-600'>Please check <a href="resume.pdf" download="Anthony's resume.pdf" className='underline text-blue-600'>resume</a> for more details.</p>
       </section>
-      
+
       <Motion />
       <SkillsMotion />
       <ProjectsSection />

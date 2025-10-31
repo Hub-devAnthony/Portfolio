@@ -25,8 +25,8 @@ function ContactSection () {
         <textarea 
           value={message} 
           onChange={(e) => setMessage(e.target.value)} 
-          className="mx-auto block mt-6 w-[85vw] h-48 bg-gray-200 border border-gray-300 rounded-2xl shadow-lg font-medium text-gray-400 text-base focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition resize-none pt-5 pl-6" type="text" placeholder="Let's build something together!"/>
-        <button onClick={sendMessage} className="mx-auto block mt-6 w-[85vw] h-16 rounded-lg bg-black text-white text-sm font-medium shadow-lg">Send Message</button>
+          className="mx-auto block mt-6 w-[90vw] h-48 bg-gray-200 border border-gray-300 rounded-2xl shadow-lg font-medium text-gray-400 text-base focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition resize-none pt-5 pl-5" type="text" placeholder="Let's build something together!"/>
+        <button onClick={sendMessage} className="mx-auto block mt-6 w-[90vw] h-16 rounded-lg bg-black text-white text-sm font-medium shadow-lg">Send Message</button>
         <div className="mx-auto mt-[200px] w-[85vw] border-b border-gray-300"></div>
         <footer className="mt-12 text-center font-medium text-base text-gray-600">Copyright  &copy; 2025 Anthony.</footer>
 
